@@ -51,7 +51,7 @@ const NavCarousel =(props)=>{
             </Nav>
         </Collapse>
       </Navbar>
-      <Carousel nextIcon="" prevIcon="" style={{position:'absolute'}}>
+      <Carousel nextIcon="" prevIcon="">
       <Carousel.Item interval={2000}>
         <img
           className="d-block w-100 car "

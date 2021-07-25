@@ -25,7 +25,7 @@ const NavCarousel =(props)=>{
     return( 
       <>
         <div className="container1" id="home">
-        <Navbar color="transparent" light expand="lg">
+        <Navbar color="dark" light expand="lg">
         <NavbarBrand className="zippy" style={{color:'white'}} href="/"><h3>ZIPPY</h3> </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

@@ -14,6 +14,7 @@ import { FaStumbleuponCircle } from "react-icons/fa";
 const Welcome =()=>{
     return(
         <div className="container we1">
+        <br/>
             <h2 style={{fontWeight:'bold',textAlign:'center'}}>Welcome to Zippy</h2>
 
             <div className="row center">
